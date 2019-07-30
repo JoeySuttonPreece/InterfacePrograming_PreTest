@@ -6,15 +6,15 @@ import { NavigationBarComponent } from './navigation-bar/navigation-bar.componen
 import { FooterBarComponent } from './footer-bar/footer-bar.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    NavigationBarComponent,
-    FooterBarComponent
-  ],
-  imports: [
-    BrowserModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        NavigationBarComponent,
+        FooterBarComponent
+    ],
+    imports: [
+        BrowserModule
+    ],
+    providers: [],
+    bootstrap: [AppComponent]
 })
 export class AppModule { }

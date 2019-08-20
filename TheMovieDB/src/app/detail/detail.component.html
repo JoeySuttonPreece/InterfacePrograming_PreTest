@@ -1,0 +1,9 @@
+<div>
+    <div>{{Title}}</div>
+    <div class="numbers">
+        <div>{{Rating | percent}}</div>
+        <div>{{ReleaseDate | date}}</div>
+        <div>{{Runtime / 60 - 0.499999 | number:"0.0-0"}}h {{Runtime % 60}}m</div>
+    </div>
+    <div class="description">{{ShortDescription}}</div>
+</div>

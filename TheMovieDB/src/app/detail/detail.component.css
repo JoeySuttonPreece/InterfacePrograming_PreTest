@@ -1,4 +1,12 @@
 .numbers {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+}
+
+.detail * {
+    margin: 8px;
+}
+
+.numbers > * {
+    margin: 0px 10px 0px 0px;
 }

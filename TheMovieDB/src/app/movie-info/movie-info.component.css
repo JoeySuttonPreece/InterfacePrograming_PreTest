@@ -1,6 +1,9 @@
-div {
-    width: 70%;
-    min-width: 700px;
+.movie-info {
+    width: 760px;
     margin: auto;
     display: flex;
+}
+
+.movie-info * {
+    margin: 8px;
 }
